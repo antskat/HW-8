@@ -1,3 +1,4 @@
+/* Первое задание */
 #greycol {
     color: grey;
 }
@@ -12,4 +13,41 @@ h3:first-child {
 }
 p:nth-child(7) {
     color: green;
+}
+/* Второе задание */
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.monday {
+    background-color: lawngreen;
+}
+.monday:active {
+    color: green;
+}
+.tuesday {
+    background-color: gold;
+}
+.tuesday:visited {
+    color: blue;
+}
+.wednesday {
+    background-color: red;
+}
+.wednesday:hover {
+    color: deeppink;
+}
+.thursday {
+    background-color: blue;
+}
+.thursday:focus {
+    color: gold;
+}
+.friday {
+    background-color: green;
+}
+.friday:not(.thursday) {
+    color: lawngreen;
 }
