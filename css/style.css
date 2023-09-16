@@ -56,7 +56,7 @@ ul > :first-child {
     background-color: blueviolet;
 }
 .container > :nth-child(even) {
-    background-color: #fff;
+    background-color: #000;
 }
 ul > :last-child {
     font-size: x-large
@@ -65,5 +65,5 @@ ul > :nth-child(3n) {
     background-color: #fff;
 }
 .container > :nth-child(odd) {
-    border: 20px;
+    border: 1px solid black;
 }
