@@ -51,3 +51,19 @@ ul {
 .friday:not(.thursday) {
     color: lawngreen;
 }
+
+ul > :first-child {
+    background-color: blueviolet;
+}
+.container > :nth-child(even) {
+    background-color: #fff;
+}
+ul > :last-child {
+    font-size: x-large
+}
+ul > :nth-child(3n) {
+    background-color: #fff;
+}
+.container > :nth-child(odd) {
+    border: 20px;
+}
